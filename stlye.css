@@ -1,0 +1,74 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 20px;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  color: #444;
+  font-size: 1.8rem;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(240, 248, 255, 0.1);
+}
+h3 {
+  font-size: 2.6rem;
+  text-align: left;
+}
+input {
+  border-radius: 0.5rem;
+  border: 1px solid #999;
+  display: block;
+  margin-bottom: 1rem;
+  outline: none;
+  padding: 1rem;
+  width: 90%;
+}
+
+input:focus {
+  border: 1px solid #333;
+  box-shadow: 0 0 3px #222;
+}
+
+.container {
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+  width: 80%;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 10px 1px rgba(51, 51, 51, 0.2);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  /* width: 70%; */
+}
+
+button {
+  background: rgb(116, 214, 144);
+  background: linear-gradient(
+    308deg,
+    rgba(116, 214, 144, 1) 0%,
+    rgba(92, 191, 187, 1) 100%
+  );
+  border-radius: 10px;
+  border: none;
+  color: white;
+  margin-top: 5px;
+  padding: 1rem;
+  width: 90%;
+  cursor: pointer;
+}
+
+.if-married {
+  padding: 1rem 0;
+  color: #555;
+}
+
+@media screen and(min-width:500px) {
+}

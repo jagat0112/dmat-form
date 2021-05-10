@@ -9,7 +9,6 @@ body {
   font-size: 1.8rem;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   background-color: rgba(240, 248, 255, 0.1);
 }
 h3 {
@@ -35,7 +34,7 @@ input:focus {
   /* display: flex; */
   /* justify-content: center;
   align-items: center; */
-  width: 80%;
+  width: 50%;
   border-radius: 1rem;
   box-shadow: 0px 0px 10px 1px rgba(51, 51, 51, 0.2);
 }
@@ -65,10 +64,16 @@ button {
   cursor: pointer;
 }
 
-.if-married {
-  padding: 1rem 0;
+label {
+  margin: 1rem 0;
   color: #555;
 }
 
-@media screen and(min-width:500px) {
+@media screen and (max-width: 800px) {
+  body {
+    margin: 10px 0;
+  }
+  .container {
+    width: 90%;
+  }
 }
